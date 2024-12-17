@@ -1,0 +1,95 @@
+.mainDivListDiv {
+  height: 100vh;
+  background-image: linear-gradient(to right, #a9f1df, #ffbbbb);
+}
+.itemContainer {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+.itemContainer .card {
+  padding: 20px;
+  width: 100%;
+}
+.table-responsive{
+    height: 250px;
+    overflow-y: scroll;
+}
+.inputItem {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+.curdTitle {
+  font-size: 25px;
+  font-family: serif;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 600;
+  color: #ffbbbb;
+}
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.editBtn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #81c681;
+    color: #fff;
+    border: 1px solid #81c681;
+    padding: 7px;
+    border-radius: 5px;
+}
+.addBtn {
+  background: #fcbebd;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #fff;
+}
+.addIcon {
+  font-size: 20px;
+}
+.deleteBtn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff5252;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #fc5151;
+}
+.itemListTitle{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+/* /// mobile screen ===>  */
+@media (max-width:426px) and (min-width:0px){
+    .table-responsive{
+        height: 176px !important;
+        overflow-y: scroll !important;
+    }
+    .inputItem {
+        width: 199px !important;
+    }
+    .addBtn{
+        font-size: 11px !important;
+    }
+    .deleteBtn{
+        font-size: 15px !important;
+    }
+.editBtn{
+    font-size: 15px !important;
+}
+    .itemListTitle{
+        font-size: 15px !important;
+    }
+    
+ }
